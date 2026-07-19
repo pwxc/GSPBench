@@ -173,3 +173,5 @@ dataset license manifest.
 
 The repeatable CI, TestPyPI, Trusted Publishing, tagging, production release,
 and rollback procedure is documented in [`docs/RELEASING.md`](docs/RELEASING.md).
+Preparation for large graph-spectrum jobs on RWTH Aachen's CLAIX cluster is
+documented in [`docs/RWTH_HPC.md`](docs/RWTH_HPC.md).
