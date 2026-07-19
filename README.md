@@ -168,3 +168,8 @@ Please cite GSPBench and the upstream dataset:
 The GSPBench source code is BSD-3-Clause. Packaged data remain subject to the
 upstream NOAA GHCN-Daily citation, use, and warranty notices described in the
 dataset license manifest.
+
+## Maintainer documentation
+
+The repeatable CI, TestPyPI, Trusted Publishing, tagging, production release,
+and rollback procedure is documented in [`docs/RELEASING.md`](docs/RELEASING.md).
