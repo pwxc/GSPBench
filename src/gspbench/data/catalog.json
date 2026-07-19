@@ -1,0 +1,39 @@
+{
+  "datasets": {
+    "australia_weather_2025": {
+      "country_code": "AS",
+      "default_laplacian": "normalized",
+      "edge_weight": "exp(-d_ij^2 / (sigma_i sigma_j)); sigma_i is distance to node i sixth neighbor",
+      "file": "australia_weather_2025.npz",
+      "graph": "symmetric union of Haversine 6-nearest-neighbor edges",
+      "n_edges": 448,
+      "n_nodes": 126,
+      "processed_sha256": "336180c23f928e051435d6c5693d8268e873858914a9fc8e6a160a67e33e74d2",
+      "quality": "blank QFLAG; >=300 annual paired TMAX/TMIN days; >=25 paired days in January and July",
+      "selection": "10x6 geographic grid; up to 3 stations per cell",
+      "summer_month": 1,
+      "temperature_definition": "daily midpoint (TMAX + TMIN) / 2 in degrees Celsius",
+      "title": "2025 Australia weather graph",
+      "winter_month": 7,
+      "year": 2025
+    },
+    "us_weather_2025": {
+      "country_code": "US",
+      "default_laplacian": "normalized",
+      "edge_weight": "exp(-d_ij^2 / (sigma_i sigma_j)); sigma_i is distance to node i sixth neighbor",
+      "file": "us_weather_2025.npz",
+      "graph": "symmetric union of Haversine 6-nearest-neighbor edges",
+      "n_edges": 509,
+      "n_nodes": 144,
+      "processed_sha256": "1a77bb5eb1f8f1626a67b13fa71c67f9677844460b6b642bd2ac0783ec5dfd68",
+      "quality": "blank QFLAG; >=300 annual paired TMAX/TMIN days; >=25 paired days in January and July",
+      "selection": "10x6 geographic grid; up to 3 stations per cell",
+      "summer_month": 7,
+      "temperature_definition": "daily midpoint (TMAX + TMIN) / 2 in degrees Celsius",
+      "title": "2025 contiguous US weather graph",
+      "winter_month": 1,
+      "year": 2025
+    }
+  },
+  "schema_version": 1
+}

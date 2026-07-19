@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.coverage
+.pytest_cache/
+.ruff_cache/
+.venv/
+build/
+dist/
+htmlcov/
+.DS_Store
+
+# Raw weather sources are intentionally not redistributed.
+*.csv.gz
+us_2025.csv
+au_2025.csv
+ghcnd-stations.txt

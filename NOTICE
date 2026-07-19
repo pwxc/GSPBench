@@ -1,0 +1,12 @@
+GSPBench includes processed subsets of NOAA Global Historical Climatology
+Network - Daily (GHCN-Daily), Version 3 observations.
+
+Dataset citation:
+Menne, M. J. et al. (2012), Global Historical Climatology Network - Daily
+(GHCN-Daily), Version 3, NOAA National Climatic Data Center,
+doi:10.7289/V5D21VHZ.
+
+NOAA and NCEI provide these data without warranty as to accuracy,
+reliability, or completeness. Users are responsible for determining fitness
+for their intended use. See src/gspbench/data/DATA_LICENSES.json for the
+dataset-specific records and source checksums.

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "datasets": {
+    "us_weather_2025": {
+      "source": "NOAA Global Historical Climatology Network - Daily, Version 3",
+      "subset": "Contiguous United States, 2025 TMAX and TMIN observations",
+      "doi": "10.7289/V5D21VHZ",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/ghcn/daily/",
+      "terms_url": "https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc%3AC00861/html",
+      "license_id": "LicenseRef-NOAA-GHCND",
+      "redistribution_status": "allowed",
+      "required_notice": "Cite GHCN-Daily Version 3 and retain the NOAA/NCEI warranty disclaimer.",
+      "accessed": "2026-06-09",
+      "raw_sha256": "35c2983cac365b698a57ece079ee7207094c44bd964b966674d77f1b98924784",
+      "processed_sha256": "1a77bb5eb1f8f1626a67b13fa71c67f9677844460b6b642bd2ac0783ec5dfd68"
+    },
+    "australia_weather_2025": {
+      "source": "NOAA Global Historical Climatology Network - Daily, Version 3",
+      "subset": "Australia, 2025 TMAX and TMIN observations",
+      "doi": "10.7289/V5D21VHZ",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/ghcn/daily/",
+      "terms_url": "https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc%3AC00861/html",
+      "license_id": "LicenseRef-NOAA-GHCND",
+      "redistribution_status": "allowed",
+      "required_notice": "Cite GHCN-Daily Version 3 and retain the NOAA/NCEI warranty disclaimer.",
+      "accessed": "2026-06-09",
+      "raw_sha256": "4b10a08194a5ddbdddab3a80221a6ee5c6297a3b6628db2112ab71ba0793fc2d",
+      "processed_sha256": "336180c23f928e051435d6c5693d8268e873858914a9fc8e6a160a67e33e74d2"
+    }
+  },
+  "noaa_disclaimer": "NOAA and NCEI provide these data without warranty as to accuracy, reliability, or completeness. Users are responsible for determining fitness for their intended use.",
+  "citation": "Menne, M. J. et al. (2012), Global Historical Climatology Network - Daily (GHCN-Daily), Version 3, NOAA National Climatic Data Center, doi:10.7289/V5D21VHZ."
+}

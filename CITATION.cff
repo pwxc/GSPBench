@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use GSPBench, please cite this software and its source datasets."
+title: "GSPBench"
+type: software
+version: 0.0.1
+date-released: 2026-07-19
+authors:
+  - name: "pwxc"
+repository-code: "https://github.com/pwxc/GSPBench"
+license: BSD-3-Clause
